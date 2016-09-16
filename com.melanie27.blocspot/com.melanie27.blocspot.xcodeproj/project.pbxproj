@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B06D5E81D8C5331006341BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B06D5E71D8C5331006341BB /* Assets.xcassets */; };
 		9B40F8061D89F6A60084F8B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40F8051D89F6A60084F8B4 /* main.m */; };
 		9B40F8091D89F6A60084F8B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40F8081D89F6A60084F8B4 /* AppDelegate.m */; };
 		9B40F80C1D89F6A60084F8B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40F80B1D89F6A60084F8B4 /* ViewController.m */; };
 		9B40F80F1D89F6A60084F8B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B40F80D1D89F6A60084F8B4 /* Main.storyboard */; };
-		9B40F8111D89F6A60084F8B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B40F8101D89F6A60084F8B4 /* Assets.xcassets */; };
 		9B40F8141D89F6A60084F8B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B40F8121D89F6A60084F8B4 /* LaunchScreen.storyboard */; };
 		9B40F81F1D89F6A60084F8B4 /* com_melanie27_blocspotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40F81E1D89F6A60084F8B4 /* com_melanie27_blocspotTests.m */; };
 		9B40F82A1D89F6A60084F8B4 /* com_melanie27_blocspotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B40F8291D89F6A60084F8B4 /* com_melanie27_blocspotUITests.m */; };
+		9B40F8381D89F7BC0084F8B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B40F8371D89F7BC0084F8B4 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B06D5E71D8C5331006341BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B40F8011D89F6A60084F8B4 /* com.melanie27.blocspot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = com.melanie27.blocspot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B40F8051D89F6A60084F8B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B40F8071D89F6A60084F8B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,7 +44,6 @@
 		9B40F80A1D89F6A60084F8B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9B40F80B1D89F6A60084F8B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9B40F80E1D89F6A60084F8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B40F8101D89F6A60084F8B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B40F8131D89F6A60084F8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B40F8151D89F6A60084F8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B40F81A1D89F6A60084F8B4 /* com.melanie27.blocspotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.melanie27.blocspotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +52,7 @@
 		9B40F8251D89F6A60084F8B4 /* com.melanie27.blocspotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.melanie27.blocspotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B40F8291D89F6A60084F8B4 /* com_melanie27_blocspotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_melanie27_blocspotUITests.m; sourceTree = "<group>"; };
 		9B40F82B1D89F6A60084F8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B40F8371D89F7BC0084F8B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B40F8381D89F7BC0084F8B4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		9B40F7F81D89F6A60084F8B4 = {
 			isa = PBXGroup;
 			children = (
+				9B40F8371D89F7BC0084F8B4 /* MapKit.framework */,
 				9B40F8031D89F6A60084F8B4 /* com.melanie27.blocspot */,
 				9B40F81D1D89F6A60084F8B4 /* com.melanie27.blocspotTests */,
 				9B40F8281D89F6A60084F8B4 /* com.melanie27.blocspotUITests */,
@@ -106,8 +110,8 @@
 				9B40F80A1D89F6A60084F8B4 /* ViewController.h */,
 				9B40F80B1D89F6A60084F8B4 /* ViewController.m */,
 				9B40F80D1D89F6A60084F8B4 /* Main.storyboard */,
-				9B40F8101D89F6A60084F8B4 /* Assets.xcassets */,
 				9B40F8121D89F6A60084F8B4 /* LaunchScreen.storyboard */,
+				9B06D5E71D8C5331006341BB /* Assets.xcassets */,
 				9B40F8151D89F6A60084F8B4 /* Info.plist */,
 				9B40F8041D89F6A60084F8B4 /* Supporting Files */,
 			);
@@ -207,6 +211,11 @@
 				TargetAttributes = {
 					9B40F8001D89F6A60084F8B4 = {
 						CreatedOnToolsVersion = 7.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					9B40F8191D89F6A60084F8B4 = {
 						CreatedOnToolsVersion = 7.3;
@@ -243,8 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B06D5E81D8C5331006341BB /* Assets.xcassets in Resources */,
 				9B40F8141D89F6A60084F8B4 /* LaunchScreen.storyboard in Resources */,
-				9B40F8111D89F6A60084F8B4 /* Assets.xcassets in Resources */,
 				9B40F80F1D89F6A60084F8B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +507,7 @@
 				9B40F8301D89F6A60084F8B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B40F8311D89F6A60084F8B4 /* Build configuration list for PBXNativeTarget "com.melanie27.blocspotTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +516,7 @@
 				9B40F8331D89F6A60084F8B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B40F8341D89F6A60084F8B4 /* Build configuration list for PBXNativeTarget "com.melanie27.blocspotUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +525,7 @@
 				9B40F8361D89F6A60084F8B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
